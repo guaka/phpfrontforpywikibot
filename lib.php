@@ -4,6 +4,8 @@
  * Web front-end voor pywikipediabot
  *
  * (c) 2012, 2013 Kasper Souren
+ *
+ * Distributed under the terms of the MIT license.
  */
 
 
