@@ -12,8 +12,8 @@
 require_once 'settings.php';
 require_once 'lib.php';
 
-$wiki = $_REQUEST['wiki'];
-$platform = $_REQUEST['platform'];
+$wiki = array_key_exists('wiki', $_REQUEST) ? $_REQUEST['wiki'] : '';
+$platform = array_key_exists('platform', $_REQUEST) ? $_REQUEST['platform'] : '';
 
 $content = '';
 if (in_array($wiki, $wikis) && in_array($platform, $platforms)) {

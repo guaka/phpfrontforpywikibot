@@ -1,10 +1,10 @@
 <?php
 
 // Directory with pywikipediabot, you don't want this to available for the world
-define (PYWIKIPEDIADIR, '../pywikipedia');
+define ("PYWIKIPEDIADIR", '../pywikipedia');
 
 // Your bot's password
-define (BOT_PASS, 'your pywikipediabot password(s)');
+define ("BOT_PASS", 'your pywikipediabot password(s)');
 
 
 $title = "Pywikipediabot web frontend";
